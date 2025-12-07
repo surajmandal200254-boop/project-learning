@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="flex justify-around py-6 px-5">
-      <span class="text-lg">Traflag</span>
+      <span class="text-xl font-bold text-midnight-slate-500">Traflag</span>
       <div class="flex flex-row gap-7">
         <span>Home</span>
         <span>Find a doctor</span>
@@ -17,20 +23,22 @@
         <span>About us</span>
       </div>
     </nav>
-    <div>
-      <img class="items-start bg-right" src="heroo.png" alt="" srcset="" />
-    </div>
-    <section class="flex justify-center px-23 my-12 gap-7">
-      <div>
-        <h1 class="text-black-100 my-3">Virtual healthcare for you</h1>
-        <p class="text-gray-100 my-3">
+
+    
+
+    <section class="flex justify-center px-23 my-12 gap-7 relative">
+      <img class="items-start bg-right absolute left-0 top-0" src="heroo.png" alt="" srcset="" />
+      <div class="flex flex-col gap-6 justify-center max-w-445px">
+        <h1 class="text-black-100 text-3xl text-6xl">Virtual healthcare for you</h1>
+        <p class="text-gray-100 font-light text-lg">
           Trafalgar provides progressive, and affordable healthcare, accessible
           on mobile and online for everyone
         </p>
         <button
-          class="my-5 py-2 px-6 rounded-full border-none font-semibold bg-mediumblue text-white-200  cursor-pointer"
+          class="rounded-full border-none font-bold font-thin text-base bg-mediumblue text-white-200 cursor-pointer"
+          style="height: 60px; width:200px"
         >
-          consult today
+        Consult today
         </button>
       </div>
       <div>
@@ -93,11 +101,13 @@
         <div class="border-2 border-solid border-white-100 w-64">
           <img src="icon6.png" alt="" srcset="" />
           <h3 class="text-black-100 my-3">Tracking</h3>
-          <p class="text-gray-100">Track and save your medical history and health data</p> 
+          <p class="text-gray-100">
+            Track and save your medical history and health data
+          </p>
         </div>
       </div>
       <button
-        class="my-5 py-2 px-8 rounded-full  border-sky-500 text-skyblue-100 font-semibold  cursor-pointer"
+        class="my-5 py-2 px-8 rounded-full border-sky-500 text-skyblue-100 font-semibold cursor-pointer"
       >
         Learn more
       </button>
@@ -112,7 +122,7 @@
           pride in the solutions we deliver
         </p>
         <button
-          class="my-5 py-2 px-8 rounded-full border-sky-500 text-skyblue-100 font-semibold  cursor-pointer"
+          class="my-5 py-2 px-8 rounded-full border-sky-500 text-skyblue-100 font-semibold cursor-pointer"
         >
           Learn more
         </button>
@@ -127,7 +137,7 @@
           administrative hassle) and securely
         </p>
         <button
-          class="my-3 py-2 px-8 rounded-full border-sky-500 text-skyblue-100 font-semibold  cursor-pointer"
+          class="my-3 py-2 px-8 rounded-full border-sky-500 text-skyblue-100 font-semibold cursor-pointer"
         >
           Download
         </button>
@@ -201,14 +211,16 @@
             Read more
           </button>
         </div>
-      </div> 
-      <div class="text-center "> <button
-      class="my-6 py-1 px-8 rounded-full border-sky-500 text-skyblue-100 font-semibold leading-2xl  cursor-pointer"
-    >
-      view all 
-    </button></div>
+      </div>
+      <div class="text-center">
+        <button
+          class="my-6 py-1 px-8 rounded-full border-sky-500 text-skyblue-100 font-semibold leading-2xl cursor-pointer"
+        >
+          view all
+        </button>
+      </div>
     </section>
-    
+
     <section
       class="my-16 px-23 py-12 flex justify-around text-left text-white-200 bg-color-blue-100"
     >

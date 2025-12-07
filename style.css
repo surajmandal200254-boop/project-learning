@@ -6,6 +6,7 @@
   --color-text-black-100: #000000;
   --color-text-gray-100: #7d7987;
   --color-rectangle-blue-100: #5a98f2;
+  --color-midnight-slate-500: #233348;
 
   --spacing-1: 0.25rem; /* 4px   */
   --spacing-2: 0.5rem; /* 8px   */
@@ -52,6 +53,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Mulish', sans-serif;
 }
 
 /* ===== DISPLAY ===== */
@@ -732,7 +734,7 @@
   background-size: contain;
 }
 .bg-1 {
-  background-image: url(Frame\ \(6\).png);
+  background-image: url(Frame\\(6\).png);
 }
 /* =========CURSOR-STYLE================= */
 .cursor-pointer {
@@ -799,6 +801,10 @@
 }
 .bg-color-blue-100 {
   background-color: var(--color-rectangle-blue-100);
+}
+
+.text-midnight-slate-500 {
+  color: var(--color-midnight-slate-500);
 }
 
 /* ========HEIGHT============== */
@@ -920,4 +926,25 @@
 
 .bg-right {
   background-position: right;
+}
+
+
+.relative {
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.max-w-445px {
+  max-width: 445px;
 }
